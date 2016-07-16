@@ -12,6 +12,6 @@ For this project an Android application, J2EE Web Service and a SQL Data Base we
 
 A small presentation is available <a href="https://github.com/fnobilia/Natter/blob/master/Presentation.pdf">here</a>
 
-![alt tag]("https://github.com/fnobilia/Natter/blob/master/screenshot/View.png")
+![alt tag](https://github.com/fnobilia/Natter/blob/master/screenshot/View.png)
 
-![alt tag]("https://github.com/fnobilia/Natter/blob/master/graphic/Icon.png")
+![alt tag](https://github.com/fnobilia/Natter/blob/master/graphic/Icon.png)
