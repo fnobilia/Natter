@@ -14,16 +14,16 @@ For this project an Android application, J2EE Web Service and a SQL Data Base we
 
 <div style="text-align:center"><img src="https://github.com/fnobilia/Natter/blob/master/screenshot/Home.png" height="400"></div>
 
-<div style="text-align:center"><img src="https://github.com/fnobilia/Natter/blob/master/screenshot/Login.png)" height="400"></div>
+<div style="text-align:center"><img src="https://github.com/fnobilia/Natter/blob/master/screenshot/Login.png" height="400"></div>
 
-<div style="text-align:center"><img src="https://github.com/fnobilia/Natter/blob/master/screenshot/Profile.png)" height="400"></div>
+<div style="text-align:center"><img src="https://github.com/fnobilia/Natter/blob/master/screenshot/Profile.png" height="400"></div>
 
-<div style="text-align:center"><img src="https://github.com/fnobilia/Natter/blob/master/screenshot/Online.png)" height="400"></div>
+<div style="text-align:center"><img src="https://github.com/fnobilia/Natter/blob/master/screenshot/Online.png" height="400"></div>
 
-<div style="text-align:center"><img src="https://github.com/fnobilia/Natter/blob/master/screenshot/Messaggi.png)" height="400"></div>
+<div style="text-align:center"><img src="https://github.com/fnobilia/Natter/blob/master/screenshot/Messaggi.png" height="400"></div>
 
-<div style="text-align:center"><img src="https://github.com/fnobilia/Natter/blob/master/screenshot/Voice.png)" height="400"></div>
+<div style="text-align:center"><img src="https://github.com/fnobilia/Natter/blob/master/screenshot/Voice.png" height="400"></div>
 
-<div style="text-align:center"><img src="https://github.com/fnobilia/Natter/blob/master/screenshot/Tow.png)" height="400"></div>
+<div style="text-align:center"><img src="https://github.com/fnobilia/Natter/blob/master/screenshot/Tow.png" height="400"></div>
 
-<div style="text-align:center"><img src="https://github.com/fnobilia/Natter/blob/master/screenshot/Position.png)" height="400"></div>
+<div style="text-align:center"><img src="https://github.com/fnobilia/Natter/blob/master/screenshot/Position.png" height="400"></div>
