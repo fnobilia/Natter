@@ -10,7 +10,7 @@ The strong point of this solution is the low battery consumption.
 
 For this project an Android application, J2EE Web Service and a SQL Data Base were modelled, developed and deployed.
 
-![alt tag](https://github.com/fnobilia/Natter/blob/master/graphic/Icon.png | width=50)
+<img src="https://github.com/fnobilia/Natter/blob/master/graphic/Icon.png" height="50">
 
 ![alt tag](https://github.com/fnobilia/Natter/blob/master/screenshot/Home.png)
 
