@@ -1,4 +1,6 @@
 # Natter
+![alt tag](https://github.com/fnobilia/Natter/blob/master/graphic/Icon.png)
+
 Every parent is worried when his son is attending a school trip as well as every teacher is worried to lose one of the students.
 
 This application provides the teacher with the possibility to create a group, directly contact each member or the entire crew with text and vocal messages and permanently tracks all movements of each group-mate.
