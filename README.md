@@ -1,4 +1,4 @@
-<div style="text-align:center"><img src="https://github.com/fnobilia/Natter/blob/master/graphic/Icon.png" height="100"></div> # Natter
+# Natter
 
 Every parent is worried when his son is attending a school trip as well as every teacher is worried to lose one of the students.
 
@@ -12,4 +12,6 @@ For this project an Android application, J2EE Web Service and a SQL Data Base we
 
 A small presentation is available <a href="https://github.com/fnobilia/Natter/blob/master/Presentation.pdf">here</a>
 
-![alt tag]("https://github.com/fnobilia/Natter/blob/master/screenshot/view.png")
+![alt tag]("https://github.com/fnobilia/Natter/blob/master/screenshot/View.png")
+
+![alt tag]("https://github.com/fnobilia/Natter/blob/master/graphic/Icon.png")
