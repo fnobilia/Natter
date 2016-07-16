@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="80dp">
+
+    <ImageView
+        android:id="@+id/recent_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/profile" >
+    </ImageView>
+
+    <RelativeLayout
+        android:layout_width="35dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true">
+
+    <RelativeLayout
+        android:id="@+id/recent_notification_conteiner"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bordo_notification_red">
+
+        <RelativeLayout
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bordo_notification_white">
+
+            <TextView
+                android:id="@+id/recent_notification"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_centerInParent="true"
+                android:text="New"
+                android:textSize="7dp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:background="@drawable/bordo_notification_red">
+            </TextView>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

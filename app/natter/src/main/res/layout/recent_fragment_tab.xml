@@ -1,0 +1,81 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/list_background">
+
+    <TextView
+        android:id="@+id/info_recent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/infoRecent"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:id="@+id/grid_recent_not_read_conteiner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/bordo_login"
+            android:visibility="gone">
+
+            <GridView
+                android:id="@+id/grid_recent_not_read"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                android:layout_centerInParent="true"
+                android:numColumns="4"
+                android:columnWidth="180dp"
+                android:horizontalSpacing="10dp"
+                android:verticalSpacing="10dp"
+                android:gravity="center"
+                android:stretchMode="columnWidth"
+                android:layout_margin="6dp"/>
+
+        </RelativeLayout>
+
+        <GridView
+            android:id="@+id/grid_recent_read"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:numColumns="4"
+            android:columnWidth="180dp"
+            android:horizontalSpacing="10dp"
+            android:verticalSpacing="10dp"
+            android:gravity="center"
+            android:stretchMode="columnWidth"
+            android:layout_below="@id/grid_recent_not_read_conteiner"
+            android:layout_margin="10dp"
+            android:visibility="gone"/>
+
+        <GridView
+            android:id="@+id/grid_recent_voice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:numColumns="4"
+            android:columnWidth="180dp"
+            android:horizontalSpacing="10dp"
+            android:verticalSpacing="10dp"
+            android:gravity="center"
+            android:stretchMode="columnWidth"
+            android:layout_below="@id/grid_recent_read"
+            android:layout_margin="10dp"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

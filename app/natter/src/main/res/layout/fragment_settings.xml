@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/list_background">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <RelativeLayout
+            android:id="@+id/relative_position_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <RelativeLayout
+                android:id="@+id/button_position_settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true">
+
+                <TextView
+                    android:id="@+id/label_position_settings"
+                    android:text="Position"
+                    style="@style/settingsLabel"/>
+
+                <Switch
+                    android:id="@+id/switch_position_settings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/info_position_settings"
+                android:layout_below="@id/button_position_settings"
+                android:text="@string/infoPositionSettings"
+                style="@style/settingsInfo"/>
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/line_position_settings"
+            android:layout_below="@id/relative_position_settings"
+            style="@style/settingsLine"/>
+
+        <RelativeLayout
+            android:id="@+id/relative_realtime_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/line_position_settings">
+
+            <RelativeLayout
+                android:id="@+id/button_realtime_settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true">
+
+                <TextView
+                    android:id="@+id/label_realtime_settings"
+                    android:text="Realtime"
+                    style="@style/settingsLabel"/>
+
+                <Switch
+                    android:id="@+id/switch_realtime_settings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/info_realtime_settings"
+                android:layout_below="@id/button_realtime_settings"
+                android:text="@string/infoRealtimeSettings"
+                style="@style/settingsInfo"/>
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/line_realtime_settings"
+            android:layout_below="@id/relative_realtime_settings"
+            style="@style/settingsLine"/>
+
+        <RelativeLayout
+            android:id="@+id/relative_boot_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/line_realtime_settings">
+
+            <RelativeLayout
+                android:id="@+id/button_boot_settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true">
+
+                <TextView
+                    android:id="@+id/label_boot_settings"
+                    android:text="Boot"
+                    style="@style/settingsLabel"/>
+
+                <Switch
+                    android:id="@+id/switch_boot_settings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/info_boot_settings"
+                android:layout_below="@id/button_boot_settings"
+                android:text="@string/infoBootSettings"
+                style="@style/settingsInfo"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

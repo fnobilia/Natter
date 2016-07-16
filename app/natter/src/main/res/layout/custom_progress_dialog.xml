@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/dialog_background">
+    
+       <RelativeLayout
+            android:layout_alignParentLeft="true"
+            android:id="@+id/relative_dialog"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <ProgressBar
+                android:id="@+id/progress"
+		        android:indeterminateDrawable="@drawable/custom_progress"
+	       		android:layout_width="wrap_content"
+	       		android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"/>
+
+		    <TextView
+		        android:id="@+id/text_progress"
+		        android:text="Login..."
+		        android:textSize="15sp"
+		        android:layout_marginLeft="15dp"
+                android:layout_marginRight="5dp"
+		        android:layout_gravity="center"
+                android:gravity="center"
+		        android:textColor="#1B6598"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/progress"
+                android:layout_centerVertical="true"/>
+
+	    </RelativeLayout>
+    
+</RelativeLayout>

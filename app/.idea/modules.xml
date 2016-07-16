@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Natter.iml" filepath="$PROJECT_DIR$/Natter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Natter/Natter-Natter.iml" filepath="$PROJECT_DIR$/Natter/Natter-Natter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/facebook/facebook.iml" filepath="$PROJECT_DIR$/libraries/facebook/facebook.iml" />
+    </modules>
+  </component>
+</project>
+

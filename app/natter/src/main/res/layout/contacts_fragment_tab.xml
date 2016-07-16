@@ -1,0 +1,17 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/list_background">
+
+    <TextView
+        android:id="@+id/info_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/infoContacts"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"/>
+</RelativeLayout>

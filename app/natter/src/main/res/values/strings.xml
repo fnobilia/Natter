@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Natter</string>
+    <string name="app_id">478883955546914</string>
+    <string name="title_facebook_login">Facebook Login</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="desc">Grafica</string>
+    <string name="passwd">Password</string>
+    <string name="user">Email</string>
+    <string name="login">Login</string>
+    <string name="name">Name</string>
+    <string name="find">Find</string>
+    <string name="surname">Surname</string>
+    <string name="phone">Phone</string>
+    <string name="signUp"><u>Sign Up for Natter</u></string>
+    <string name="infoSignUp">Or sign up with your email address</string>
+    <string name="emailSignIn">Your email address</string>
+    <string name="passwdSignIn">At least 6 characters</string>
+    <string name="nameSignIn">Your name</string>
+    <string name="surnameSignIn">Your surname</string>
+    <string name="phoneSignIn">Your mobile phone</string>
+    <string name="done">Done</string>
+    <string name="infoFind">Find your friends completing at least one of underlying fields</string>
+    <string name="emailFind">Put email address</string>
+    <string name="nameFind">Put name</string>
+    <string name="surnameFind">Put surname</string>
+    <string name="phoneFind">Put mobile phone</string>
+    <string name="edit">Edit</string>
+    <string name="logout">Logout</string>
+    <string name="infoPrivacy">By signing up I agree to the Terms of Use and Privacy policy of Natter</string>
+    <string name="infoPosition">By switching on the below button you can allow the other side speaker to see your position on the map</string>
+    <string name="infoContacts">None of your contacts using Natter</string>
+    <string name="infoOnline">None of your contacts are online</string>
+    <string name="infoRecent">There are no recent conversations</string>
+    <string name="infoPositionSettings">By switching on the below button you can allow the other side speaker to see your position on the map</string>
+    <string name="infoRealtimeSettings">By switching on the below button you can listen the messages as soon as they arrive</string>
+    <string name="infoBootSettings">By switching on the below button you can allow the application to start on boot the the device</string>
+    <string name="infoPositionUser">Your friend does not show his position</string>
+    <string name="infoPositionApp1">If you do not share your position you can not see one of your friends</string>
+    <string name="infoPositionApp2">Open Settings and switch on position to see where are your friends</string>
+    <string name="infoCompletProfile">We need more information to make sure that your friends can find you on Natter</string>
+    <string name="infoHome">Select one of your friends online and start nattering with him!</string>
+    <string name="infoGpsHardware">GPS is not enabled. Do you want to go to settings menu?</string>
+
+    <string-array name="menu_items">
+        <item >Home</item>
+        <item >Profile</item>
+        <item >People</item>
+        <item >Position</item>
+        <item >Map</item>
+        <item >Settings</item>
+    </string-array>
+
+    <array name="menu_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_profile</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_locations</item>
+        <item>@drawable/ic_world_green</item>
+        <item>@drawable/ic_settings</item>
+        <item>@drawable/ic_launcher</item>
+    </array>
+
+</resources>

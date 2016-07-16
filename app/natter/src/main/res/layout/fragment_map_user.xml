@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/list_background">
+
+    <RelativeLayout
+        android:id="@+id/relative_map_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+        <fragment
+            android:id="@+id/map_user"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_user_map_info_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/info_user_position_map1_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:text="@string/infoPositionApp1"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/info_user_position_map2_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info_user_position_map1_me"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:text="@string/infoPositionApp2"
+            android:textColor="#FFFFFF"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/info_user_position_map2_me"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/globe"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_user_map_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/info_position_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:text="@string/infoPositionUser"
+            android:textColor="#FFFFFF"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/info_position_user"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/globe"/>
+    </RelativeLayout>
+
+</RelativeLayout>

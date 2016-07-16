@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="commoms-io-2.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Natter/libs/commoms-io-2.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

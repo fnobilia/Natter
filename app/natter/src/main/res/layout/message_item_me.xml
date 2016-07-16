@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/mex_me_background">
+
+        <TextView
+            android:id="@+id/time_mex_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentBottom="true"
+            android:text="10:25"
+            android:textSize="12sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/text_mex_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toEndOf="@id/time_mex_me"
+            android:text="Hi! How are you?"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:id="@+id/image_mex_me"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toEndOf="@id/text_mex_me"
+            android:src="@drawable/profile"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/list_background">
+
+    <RelativeLayout
+        android:id="@+id/relative_bar_call"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bottone_done">
+
+        <ImageButton
+            android:id="@+id/call_user_img"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:background="@drawable/profile"
+            android:contentDescription="0"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/call_user_img">
+
+            <TextView
+                android:id="@+id/call_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:text="F. Nobilia"/>
+
+            <TextView
+                android:id="@+id/call_user_access"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="5dp"
+                android:visibility="invisible"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:text=""/>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/call_position"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_position"
+            android:clickable="true"
+            android:contentDescription="3"/>
+
+        <Button
+            android:id="@+id/call_voice"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/call_position"
+            android:layout_marginRight="-10dp"
+            android:background="@drawable/ic_voice"
+            android:clickable="true"
+            android:contentDescription="2"/>
+
+        <Button
+            android:id="@+id/call_chat"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/call_voice"
+            android:background="@drawable/ic_chat"
+            android:clickable="true"
+            android:contentDescription="1"/>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_container_call"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relative_bar_call"/>
+
+    <RelativeLayout
+        android:id="@+id/info_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/list_background"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/info_home_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:text="@string/infoHome"
+            android:textColor="#FFFFFF"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="25dp"
+            android:layout_below="@id/info_home_text"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/friends"/>
+    </RelativeLayout>
+
+</RelativeLayout>

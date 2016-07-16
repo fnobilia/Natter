@@ -1,0 +1,33 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/list_background">
+
+    <TextView
+        android:id="@+id/info_online"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/infoOnline"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:visibility="gone"/>
+
+    <GridView
+        android:id="@+id/grid_online"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"
+        android:numColumns="4"
+        android:columnWidth="180dp"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:gravity="center"
+        android:stretchMode="columnWidth"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:visibility="gone"/>
+</RelativeLayout>

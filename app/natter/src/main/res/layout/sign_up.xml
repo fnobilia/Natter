@@ -1,0 +1,239 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sfondo_login"
+    tools:context="it.natter.SignUp"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000">
+    </RelativeLayout>
+
+    <!-- contenitore sign in -->
+    <RelativeLayout
+        android:id="@+id/social"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <!-- google -->
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/google_sign_in"
+            android:layout_width="fill_parent"
+            android:layout_height="52dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:contentDescription="google_signup"/>
+
+        <!-- facebook -->
+        <com.facebook.widget.LoginButton
+            xmlns:fb="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/facebook_sign_in"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@+id/google_sign_in"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/alternative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/facebook_sign_in"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:text="@string/infoSignUp"/>
+
+        <RelativeLayout
+            android:id="@+id/userInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/alternative"
+            android:background="@drawable/bordo_login"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <RelativeLayout
+                android:id="@+id/email_relative"
+                android:layout_alignParentTop="true"
+                style="@style/signInRelative">
+
+                <TextView
+                    android:id="@+id/email_label"
+                    android:text="@string/user"
+                    android:textAlignment="center"
+                    style="@style/signInLabel"/>
+
+                <EditText
+                    android:id="@+id/email_sign_in"
+                    android:inputType="textEmailAddress"
+                    android:hint="@string/emailSignIn"
+                    android:textAlignment="center"
+                    android:nextFocusUp="@id/email_sign_in"
+                    android:nextFocusLeft="@id/email_sign_in"
+                    style="@style/signInEdit"/>
+
+                <View
+                    android:layout_below="@+id/email_sign_in"
+                    style="@style/signInLine"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/passwd_relative"
+                android:layout_below="@id/email_relative"
+                style="@style/signInRelative">
+
+                <TextView
+                    android:id="@+id/passwd_label"
+                    android:text="@string/passwd"
+                    android:textAlignment="center"
+                    style="@style/signInLabel"/>
+
+                <EditText
+                    android:id="@+id/passwd_sign_in"
+                    android:inputType="textVisiblePassword"
+                    android:hint="@string/passwdSignIn"
+                    android:textAlignment="center"
+                    android:nextFocusUp="@id/passwd_sign_in"
+                    android:nextFocusLeft="@id/passwd_sign_in"
+                    style="@style/signInEdit"/>
+
+                <View
+                    android:layout_below="@id/passwd_sign_in"
+                    style="@style/signInLine"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/name_relative"
+                android:layout_below="@id/passwd_relative"
+                style="@style/signInRelative">
+
+                <TextView
+                    android:id="@+id/name_label"
+                    android:text="@string/name"
+                    android:textAlignment="center"
+                    style="@style/signInLabel"/>
+
+                <EditText
+                    android:id="@+id/name_sign_in"
+                    android:inputType="text|textCapWords|textPersonName|textAutoComplete|textAutoCorrect"
+                    android:hint="@string/nameSignIn"
+                    android:textAlignment="center"
+                    android:nextFocusUp="@id/name_sign_in"
+                    android:nextFocusLeft="@id/name_sign_in"
+                    style="@style/signInEdit"/>
+
+                <View
+                    android:layout_below="@id/name_sign_in"
+                    style="@style/signInLine"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/surname_relative"
+                android:layout_below="@id/name_relative"
+                style="@style/signInRelative">
+
+                <TextView
+                    android:id="@+id/surname_label"
+                    android:text="@string/surname"
+                    android:textAlignment="center"
+                    style="@style/signInLabel"/>
+
+                <EditText
+                    android:id="@+id/surname_sign_in"
+                    android:inputType="text|textCapWords|textPersonName|textAutoComplete|textAutoCorrect"
+                    android:hint="@string/surnameSignIn"
+                    android:textAlignment="center"
+                    android:nextFocusUp="@id/surname_sign_in"
+                    android:nextFocusLeft="@id/surname_sign_in"
+                    style="@style/signInEdit"/>
+
+                <View
+                    android:layout_below="@+id/surname_sign_in"
+                    style="@style/signInLine"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/phone_relative"
+                android:layout_below="@id/surname_relative"
+                style="@style/signInRelative">
+
+                <TextView
+                    android:id="@+id/phone_label"
+                    android:text="@string/phone"
+                    android:textAlignment="center"
+                    style="@style/signInLabel"/>
+
+                <EditText
+                    android:id="@+id/phone_sign_in"
+                    android:inputType="phone|textAutoComplete|textAutoCorrect"
+                    android:hint="@string/phoneSignIn"
+                    android:textAlignment="center"
+                    android:nextFocusUp="@id/phone_sign_in"
+                    android:nextFocusLeft="@id/phone_sign_in"
+                    style="@style/signInEdit"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/sign_in"
+            android:layout_below="@id/userInfo"
+            android:layout_marginTop="15dp"
+            android:text="@string/done"
+            android:enabled="false"
+            android:textColor="#55AFAFAF"
+            android:contentDescription="done_signup"
+            style="@style/signInDone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/sign_in"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:textStyle="normal"
+            android:text="@string/infoPrivacy"/>
+
+    </RelativeLayout>
+
+
+    <!-- firma -->
+    <TextView
+        android:id="@+id/firma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:text="Powered by Francesco Nobilia ®"
+        android:clickable="true"
+        android:onClick="firma"/>
+
+</RelativeLayout>
